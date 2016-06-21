@@ -2,21 +2,21 @@
 
 # You hop on the subway at Union Square. As you are waiting for the train you take a look at the subway map. The map is about 21 inches wide and 35 inches tall. Let's write a method to returns the area of the map:
 def map_size
-  "The map is #{21 * 25} square inches"
+  "The map is #{21*25} square inches"
 end
 
-# Now you give it a shot! It takes about 156 seconds to go between stops and you'll be taking the train for 3 stops. Write a method that returns how long your trip will take. 
+# Now you give it a shot! It takes about 156 seconds to go between stops and you'll be taking the train for 3 stops. Write a method that returns how long your trip will take.
 def trip_length
-	# write your code here
+	"The trip will take #{156*3} seconds."
 end
 
 # While you are waiting for the train you decide to play a little dice. Create a method called roll that returns a random number between 1 and 6 (feel free to google "how to generate a random number in ruby").
 
-# write your code here
+def roll
+   1+rand(6)
+end
 
-
-
-# The train arrives and you hop on. Guess what time it is? It's showtime! There are 23 people on the train and each person gives the dancers 1.5 dollars. Write a method called pay_dancers that returns how much money they made. 
+# The train arrives and you hop on. Guess what time it is? It's showtime! There are 23 people on the train and each person gives the dancers 1.5 dollars. Write a method called pay_dancers that returns how much money they made.
 
 
 # There is one grumpy lady on the train that doesn't like the dancing though. Write a method called stop_dancing that returns a message to the dancers in all caps.
@@ -31,14 +31,14 @@ end
 
 # Call your methods below:
 puts "How big is that subway map?"
-# call your method here - like this
 puts map_size
+
 
 puts "This is how long the trip will take"
 puts trip_length
 
 puts "While I was waiting I rolled a"
-# call your method here
+puts roll
 
 puts "How much money did the train dancers make?"
 # call your method here
